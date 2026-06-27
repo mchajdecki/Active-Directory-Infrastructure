@@ -1,4 +1,4 @@
-# Preparing Active Directory Infrastructure in Microsoft Azure
+# Preparing Active Directory Infrastructure in Microsoft Azure 
 
 <p align="center">
 <img src="https://github.com/mchajdecki/Active-Directory-Infrastructure/blob/391fe141acf857209cd036b3cef4c89a7cd43fa1/images/Logo.png" alt="Microsoft Active Directory Logo"/>
@@ -19,3 +19,32 @@
 - Microsoft Active Directory
 
 <h2>Operating Systems Used </h2>
+
+- Virtual Machine 
+- Second VM name
+
+<h1>In This tutorial we will be creating the following resources in Microsoft Azure.</h1>
+
+- Resource Group
+- Virtual Network
+- Windows Virtual Machine - Domain Controller - Windows Server 2022 x64 - Standard_D2vs_v3 - 2 vcpus
+- Windows Virtual Machine - Client Vm - Windows 10 Pro - Standard_D2vs_v3 - 2 vcpus
+
+<h3>For an in depth rundown on Microsoft Azure visit this helpful guide <a href="https://github.com/mchajdecki/Microsoft-Azure">Microsoft Azure Full Tutorial</a>
+
+<br>
+
+<h2>This tutorial outlines the following</h2>
+<ul>
+
+<li><a href="#rg">Creating Resource Group</a></li>
+<li><a href="#vn">Creating a Virtual Network</a><li>
+<li><a href="#vm">Creating Virtual Machines</a></li>
+<li><a href="#configdc">Configuring Domain Controller VM</a></li>
+<li><a href="#firewall">Disable the Windows Firewall</a></li>
+<li><a href="#configcl">Configure Client VM</a></li>
+<li><a href="#ping">Ping Domain Controller from Client VM</li></li>
+</ul>
+
+<br/>
+
