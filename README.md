@@ -7,7 +7,7 @@
 <h1>Preparing Active Directory Infrastructure</h1>
 <h1>Active directory is a software built and maintained by Microsoft that:</h1>
 
-- Centrally manage thousands of user accounts in a single place (accounts, passwords, permissions, etc.
+- Centrally manage thousands of user accounts in a single place (accounts, passwords, permissions, etc.)
 - Allows you to manage devices on a large scale.
 - Provides a way to control access to resources on a large scale.
 
